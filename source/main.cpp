@@ -23,7 +23,7 @@ int main()
 	auto [test_data, test_data2] = NeuralLib::splitTrainingData(test_data_raw, 1000); // get the first 1000 from 5000 only
 
 #else			//or simple digit training data
-	//create 3-th layer FCNN
+	//create 6-th layer FCNN
 	NeuralLib::NeuralNetwork network({ 32 * 32,64,64,64,64,10 });
 
 	//load train and test data
