@@ -1,0 +1,8 @@
+.vs/
+Debug/
+Release/
+build/
+Neuro/Debug
+Neuro/Release
+*.vcxproj.filters
+*.vcxproj.user
